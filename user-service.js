@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.set("useFindAndModify", false); //https://mongoosejs.com/docs/deprecations.html#findandmodify
+mongoose.set('useFindAndModify', false); 
 const bcrypt = require("bcryptjs");
 
 let mongoDBConnectionString = process.env.MONGO_URL;
